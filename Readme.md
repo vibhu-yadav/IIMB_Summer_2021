@@ -10,7 +10,7 @@ The scripts should be run in the following order:
 
 To run any of these over a entire court for a period of years (2012-2021), use the following bash command:
 
- **for i in {2012..2021}; do echo $i; python3 `<filename> `--idx `<court_id> --$i;`**
+ **for i in {2012..2021}; do echo $i; python3 `<filename> `--idx `<court_id> ` --year $i;**
 
 
 Additionally, the script "get_missing.sh" can be used after running the check.py loop to save the missing files.
